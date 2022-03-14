@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ojo de Pancha</title>
+  </head>
+  <body>
+    <img src="logojo.png" alt="logo pasteleria" width="100px" height="120" />
+    <h2>Escoge el Sabor de tu pastel y los adornos que quieras</h2>
+    <h3>Puedes combinar sabores y adornos</h3>
+
+    <form action="">
+      <h3>Hola! Ayudanos con unos datos para que recibas tu pastel:</h3>
+      <label for="nombre">Escribe tu nombre:</label><br />
+      <input type="text" name="nombre" id="nombre" /><br />
+      <label for="mail">Escribe tu correo:</label><br />
+      <input type="email" name="mail" id="mail" /><br />
+      <label for="tel">Escribe tu Telefono:</label><br />
+      <input type="number" name="tel" id="tel" />
+      <br />
+      <h3>Que celebras?</h3>
+      <label for="cumpleaños">Cumpleaños</label>
+      <input
+        type="radio"
+        name="cumpleaños"
+        id="cumpleaños"
+        value="Cumpleaños"
+      /><br />
+      <label for="graduacion">Graduación</label>
+      <input
+        type="radio"
+        name="graduacion"
+        id="graduacion"
+        value="Graduacion"
+      /><br />
+      <label for="boda">Boda</label>
+      <input type="radio" name="boda" id="boda" value="Boda" /><br />
+
+      <h3>De que sabor quieres el pastel?</h3>
+      <h5>Puedes combinar los sabores que quieras</h5>
+
+      <label for="chocolate">Chocolate</label>
+      <input type="checkbox" name="choco" id="choco" value="Chocolate" />
+      <br />
+      <label for="nuez">Nuez</label>
+      <input type="checkbox" name="nuez" id="nuez" value="Nuez" />
+      <br />
+      <label for="chocolate">Fresa</label>
+      <input type="checkbox" name="fresa" id="fresa" value="Fresa" />
+      <br />
+
+      <h3>Que Toppings quieres para tu pastel?</h3>
+      <h5>Puedes combinar los toppings que quieras</h5>
+
+      <label for="uvas">Uvas</label>
+      <input type="checkbox" name="uva" id="uva" value="Uva" />
+      <br />
+      <label for="luneta">Lunetas</label>
+      <input type="checkbox" name="lune" id="lune" value="Luneta" />
+      <br />
+      <label for="kiwi">Kiwi</label>
+      <input type="checkbox" name="kiwi" id="kiwi" value="Kiwi" />
+      <br />
+      <h4>Quieres tu pastel para llevar? o te lo llevamos hasta tu casa?</h4>
+
+      <label for="aqui">Para llevar</label>
+      <input type="radio" name="deliver" id="aqui" value="Aqui" />
+
+      <br />
+
+      <label for="llevar">Llevenmelo a mi casa</label>
+      <input type="radio" name="deliver" id="llevar" value="Para llevar" />
+      <br />
+
+      <input type="reset" value="borrar" />
+      <input type="submit" value="enviar" />
+    </form>
+  </body>
+</html>
